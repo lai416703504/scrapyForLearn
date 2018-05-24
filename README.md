@@ -56,10 +56,10 @@ ITEM_PIPELINES = {
 ```
 分配给每个类的整型值，确定了他们运行的顺序，item按数字从低到高的顺序，通过pipeline，通常将这些数字定义在0-1000范围内。
 
-###Feed exports
+### Feed exports
 实现爬虫时最经常提到的需求就是能合适的保存爬取到的数据，或者说，生成一个带有爬取数据的”输出文件”(通常叫做”输出feed”)，来供其他系统使用。
 
 其自带支持的类型有:JSON ,JSON lines,CSV,XML ,也可以通过 FEED_EXPORTERS 设置扩展支持的属性。
 
 
-###看到有点头痛先看到这 https://scrapy-chs.readthedocs.io/zh_CN/master/topics/broad-crawls.html
+### 看到有点头痛先看到这 https://scrapy-chs.readthedocs.io/zh_CN/master/topics/broad-crawls.html
